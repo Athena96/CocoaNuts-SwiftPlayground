@@ -8,7 +8,7 @@
 //:
 //: ### ***Constants***
 // You "Declare" a Constant like this:
-let four = 4
+var four = 4
 
 // Now "four" stores the number 4!
 //:

@@ -50,7 +50,7 @@ var sayid = Person(name: "Sayid", favoriteColor: "Green")
 //:
 //: When you declare an ***Instance*** of a ***Structure*** in Swift, every ***property*** needs to have an ***Initial Value***.
 //:
-//: In Swift, ***Structures*** get a ***"Member wise initializer"*** for free! An ***initializer*** is a shortcut to giving all of the ***properties*** of your ***Structure*** an ***Initial Value***.
+//: In Swift, ***Structures*** get a ***"Member-wise initializer"*** for free! An ***initializer*** is a shortcut to giving all of the ***properties*** of your ***Structure*** an ***Initial Value***.
 //:
 //: If you take another look at our ***Structure***, the ***properties*** we declared don't have any ***Inital values*** of their own, this is why we use the ***initializer*** when we declare them.
 //:
@@ -78,7 +78,6 @@ struct Person2 {
     var name = ""
     
     var favoriteColor = ""
-    
     
     // new functions
     
@@ -116,7 +115,6 @@ class Person3 {
     var name = ""
     
     var favoriteColor = ""
-    
     
     func walk() {
         print("\(name) is walking...")
@@ -164,6 +162,7 @@ john.favoriteColor = "Orange"
  */
 //: ---
 let 🎉 = "party time!"
+
 //: [click to finish](TheEnd)
 //:
 //: [SECRET CHALLENGE](SecretChallenge)

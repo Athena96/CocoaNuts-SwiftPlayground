@@ -8,12 +8,12 @@
 //:
 //: ----
 //: ### Integer
-//: We know one of Swifts ***Data Types*** already from the previous section
+//: We know one of Swift's ***Data Types*** already from the previous section
 let four = 4
-//: The value we are storing here is of type ***Integer*** or ***Int*** (a whole number with no fractional component, which is posotive, negative, or 0).
+//: The value we are storing here is of type ***Integer*** or ***Int*** (a whole number with no fractional component, which is positive, negative, or zero).
 //:
 //: ### Type Inference
-//: Swift is able to infer the ***type*** of the variable we declare by looking at the value we ***initalize*** it with.
+//: Swift is able to infer the ***type*** of the variable we declare by looking at the value we ***initialize*** it with.
 //:
 //: This means that we can usually (and should try to) avoid the longer declaration where we explicitly state the variable type like this:
 let five: Int = 5
@@ -34,7 +34,7 @@ let PizzaTastesBad = false
 let greeting = "Hello, World!"
 //:
 //: ### Character
-//: ***Strings*** are actually made of a more primitive ***Data Type*** called a ***Character***, yep you guessed it, ***Characters*** hold only a single Character. Here's an example
+//: ***Strings*** are actually made of a more primitive ***Data Type*** called a ***Character***. Yep you guessed it, ***Characters*** hold only a single Character. Here's an example:
 var response: Character = "Y"
 // Wait a second why did we explicitly declare "Character", I thought Swift could infer the type?
 
@@ -46,14 +46,14 @@ let aCharacter = response
 //:
 //: ----
 //: ### Tuples
-//: Okay, are you ready for something Cool?! What if you wanted to store 2, or more, different pieces of data in a single variable.
+//: Okay, are you ready for something cool?! What if you wanted to store two or more different pieces of data in a single variable?
 //:
 //: These kinds of Variables/Constants are called ***Tuples*** in Swift and this is how you declare one:
 var strawberry = ("Strawberry", "Red", 5)
 
 // What's the 5 for?
 
-// Let's declare another Tuple, but this time we'll given names to the individual pieces of data to make it easier to read.
+// Let's declare another Tuple, but this time we'll give names to the individual pieces of data to make it easier to read.
 var banana = (name: "Banana", color: "Yellow", calories: 100)
 //: 
 //: So, what is the ***Type*** of this variable since it looks like it has some ***Strings*** and an ***Int***?
@@ -62,10 +62,10 @@ var banana = (name: "Banana", color: "Yellow", calories: 100)
 //:
 //: You can make Tuples of any combination you like and any size you like.
 
-//: Here is how you access the individual elements in a Tuple
+//: Here is how you access the individual elements in a Tuple:
 banana.color
 
-// and here's how if you don't give names to the elements of the tuple, like we did with "strawberry"
+// and here's how if you don't give names to the elements of the tuple, like we did with "strawberry:"
 strawberry.0
 strawberry.1
 strawberry.2

@@ -50,15 +50,15 @@ print("∑ ", numbers, " = ", sum(data: numbers)) // ∑ means the sum of
 //: • After the parameters we put our ***Return Type***.
 //: Return types can be any type you need, and not every function needs to return something as we saw in the examples above.
 //:
-//: If our function does need to return a value, then we use the -> arrow to state which type we need to return like we observed in the ***"sum"*** funciton.
+//: If our function does need to return a value, then we use the -> arrow to state which type we need to return like we observed in the ***"sum"*** function.
 //:
-//: Keep in mind that if we state a ***return type***, then our ***function*** has to use the "return" keyword to return something, otherwise we get an error.
+//: Keep in mind that if we state a ***return type***, then our ***function*** has to use the "return" keyword to return something, otherwise we get a compile error.
 //:
 //: ----
 //: Functions are a fundamental part of programming; they help us write clear code in a way we can understand how it works with minimal effort.
 //: ---
 //:
-//: In the next section, we'll learn about a how to deal with a Variable or Constant that has no Value.
+//: In the next section, we'll learn how to deal with a Variable or Constant that has no Value.
 //: ---
 //: ----
 //: [Next - Optionals](@next)
