@@ -2,7 +2,7 @@
 //: # The End
 //:
 //: ----
-//: Well, you did it, nice job. ☺️
+//: Well, you did it. Nice job! ☺️
 //:
 //: This Playground was meant to introduce people with no programming experience to programming in general, as well as to introduce Swift to people who do have some previous programming experience.
 //:
@@ -16,9 +16,9 @@
 //:
 //: • Read some more about Swift in the [Apple Docs](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309).
 //:
-//: • Follow a CocoaNuts Demo, and use Swift to make and iOS (or WatchOS or TvOS) [App](https://sites.google.com/site/cocoanutsios/).
+//: • Follow a [CocoaNuts Demo](http://www.cocoanutsdev.com), and use Swift to make an iOS, watchOS, macOS or tvOS app.
 //:
-//: • Come to a [CocoaNuts Meeting](https://sites.google.com/site/cocoanutsios/)!
+//: • Come to a [CocoaNuts Meeting](http://www.cocoanutsdev.com)!
 //:
 //: ----
 //: ### Thank you for reading

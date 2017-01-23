@@ -4,22 +4,22 @@
 //: ### Last time
 //: we talked about the many different ways we can manipulate our stored data using operators.
 //: ### This time
-//: we will learn how to make descisions, and control the order and number of times our code is run! It's a big, fat, important section!
+//: we will learn how to make decisions, and control the order and number of times our code is run! It's a big, fat, important section!
 //:
 //: ---
 //: Up until now, our code has executed in a linear fashion, line 1 then line 2 and so on.
-//: ![Linear Oder Example](LinearOrder.png)
+//: ![Linear Order Example](LinearOrder.png)
 //:
 //: But what if we want to execute different lines of code depending on if some condition is met, or if we want to repeat a few lines of code for some number of times, or ***while*** a condition is true.
-//: ![Non-Linear Oder Example](NonLinearOrder.png)
+//: ![Non-Linear Order Example](NonLinearOrder.png)
 //:
 //: ----
 //: After looking at the picture above, we can break down these different ways of controlling the flow of our code into 3 different structures:
-//: 1. Making descisions.
+//: 1. Making decisions.
 //: 2. Repeating code a certain number of times.
 //: 3. Repeating code while a condition is true.
 //:
-//: ### 1. Making Descisions: The "if" statement
+//: ### 1. Making Decisions: The "if" statement
 //: The if statement is structured as follows:
 /*:
     if booleanCondition {
@@ -91,7 +91,7 @@ for _ in 1...5 {
         ...
     }
  */
-//: A ***while loop*** will continue to execute the code in its curly braces until the condition it is evaluating at each iteration becomes ***false***. Then, control will exit the loop and contiue on like normal.
+//: A ***while loop*** will continue to execute the code in its curly braces until the condition it is evaluating at each iteration becomes ***false***. Then, control will exit the loop and continue on like normal.
 var i = 1
 while i <= 5 {
     i += 1
@@ -105,7 +105,7 @@ while i <= 5 {
 /*:
  What if the condition that is being evaluated never becomes false?
  
- Then you have an Infinte loop on your hands!
+ Then you have an Infinite loop on your hands!
  
  You should try to avoid infinite loops, except the one shown below ;)
  */
@@ -113,7 +113,7 @@ while i <= 5 {
 //:
 //: ----
 /*:
- ## This is one of the most important sections in this entire Playground! It teaches you ways to conrtol your code that you will use for the rest of your programming endeavors! Maybe go through it again if you want.
+ ## This is one of the most important sections in this entire Playground! It teaches you ways to control your code that you will use for the rest of your programming endeavors!
  
  ## Next section will teach you a new and useful way to structure your data. Think ***lists***.
  */

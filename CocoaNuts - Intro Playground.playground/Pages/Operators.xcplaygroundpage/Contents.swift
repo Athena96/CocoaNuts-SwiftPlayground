@@ -8,7 +8,7 @@
 //: the question is how can we can we do operations on these values?
 //:
 //: ----
-//: ### Arithmatic Operators: + - * / %
+//: ### Arithmetic Operators: + - * / %
 // +
 var sum = 4 + 5 // Check out the output in the sidebar, it'll show the sum
 
@@ -28,7 +28,7 @@ result = 10 / 5
 
 
 result = 10 / 6
-//: Whoah, wait a second... how is the results of 10/6 equal to 1?
+//: Whoa, wait a second... how is the results of 10/6 equal to 1?
 //:
 //: This is called Integer division. Since our Variable "result" is of type Integer, it can only store integers.
 //:
@@ -44,10 +44,10 @@ result = 10 % 6
 
 
 // ()
-//: We can also use parenthsesis in expressions just like we would normaly use them.
+//: We can also use parenthesis in expressions just like we would normally use them.
 let answer = ((5 * 4.32) / 3) + 9
 
-// Notce that the result of this expression will have a decimal.
+// Notice that the result of this expression will have a decimal.
 // So, Swift infers the variable "answer" to be of type Double.
 //: ----
 //: Okay, now we know how to do some Math!
@@ -95,9 +95,9 @@ comparison = true != true
     // produces error
  */
 //: ### Comparing Strings
-//: Strings are compared Lexicographically
+//: Strings are compared lexicographically
 //:
-//: So the farther down the aplphabet you are the higher the value of the letters.
+//: So the farther down in the alphabet you are, the higher the value of the letters.
 // Check out the result of the comparison in the side bar to get a feel for how these comparisons work.
 var stringComparison = "a" > "z"
 stringComparison = "a" == "A"
@@ -105,7 +105,7 @@ stringComparison = "a" == "a"
 stringComparison = "Banana" > "Batarang"
 stringComparison = "b" >= "a"
 //: ----
-//: Finaly, lets combine everything we have learned in this section to create some compound expressions.
+//: Finally, lets combine everything we have learned in this section to create some compound expressions.
 // What kind of Type is "isItBigger"?
 let isItBigger = ((5 * 3) / 2) > (2 * 2 * 2 * 2)
 // Since we are doing a greater than comparison, "isItBigger" has to hold a Boolean value.
@@ -117,7 +117,7 @@ let averageRainfall = (0.0 + 1.2 + 3.0 + 0.5 + 0.0 + 0.0) / days
 
 var weatherReport = "This week the average temperature was \(averageTemperature) deg. F and the average rainfall was \(averageRainfall)."
 
-// When you want to include numerical values in your strings, you use the:  \()    syntax. Simply place your variable inside of the parenthesis.
+// When you want to include numerical values in your strings, you use the:  \()    syntax. Simply place your variable inside of the parenthesis.  This is called string interpolation.
 //: ----
 //: We did a lot in this section: how to do math, comparisons, and combining numbers with Strings. In the next section, we'll learn about loops and making descisions.
 //: ---

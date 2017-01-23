@@ -40,7 +40,7 @@ var four: Int? // we don't give it an initial value, so it is set to nil by defa
 //:
 //: ----
 //: ### How do we know if an Optional has a value?
-//: In coding, situations will arise when we will be given an ***Optional Variable*** and don't know if it has a value or not.
+//: In practice, situations will arise when we will be given an ***Optional Variable*** and we don't know if it has a value or not.
 //:
 //: If we to try to use the ***Optional Variables*** value and it doesn't have a value (it was set to nil), we would get something called a ***"Runtime Error."*** This kind of error will ***crash*** our program and we never want that to happen!
 //:
@@ -62,7 +62,7 @@ if let response = userResponse {
 //: If the ***Optional*** does not have a value (it is equal to nil) then skip the curly braces and continue on with the program.
 //:
 //: ----
-//: At first, Optionals might seem redundant or not very useful, but in time you'll see that they do come in handy and help us write safe code.
+//: At first, Optionals might seem pointless, but in time you'll see that they are a core part of what makes Swift code safe, modern, and easy to read.
 //: ---
 //:
 //: In the next section, we wrap things up with a topic that combines everything we have learned with something totally new. It will probably be your favorite section!

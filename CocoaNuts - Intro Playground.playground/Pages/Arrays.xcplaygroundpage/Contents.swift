@@ -2,13 +2,13 @@
 //: # Arrays
 //: ----
 //: ### Last time...
-//: we learned about how to make descesions in our code with ***if*** statements and how to repeat code with ***loops***.
+//: we learned how to make decisions in our code with ***if*** statements and how to repeat code with ***loops***.
 //:
 //: ### This time...
 //: we'll learn about a new way to organize our data.
 //:
 //: ----
-//: If we wanted to make a shoping list using what we already know, we might come up with something like this:
+//: If we wanted to make a shopping list using what we already know, we might come up with something like this:
 var item1 = "Eggs"
 var item2 = "Avocados"
 var item3 = "Bacon"
@@ -21,7 +21,7 @@ var shoppingList: [String] = ["Eggs", "Avocados", "Bacon"]
 //:
 //: Each value in an ***Array*** has a unique ***index***, you access the value at an ***index*** like this:
 print(shoppingList[1])
-//: If you look at the sidebar, "Avocados" was printed?
+//: If you look at the sidebar, was "Avocados" printed?
 //:
 //: Why was Avocados printed and not Eggs? The reason is because ***Arrays*** are ***indexed*** starting at 0.
 //:
@@ -57,7 +57,7 @@ let tax =  taxPercent * sum
 let total = tax + sum
 
 print("Total Cost: $", total)
-//: In the loop, we go through each value in the shoppingListPrice ***Array***, and for each value we perform the block of code in the curly braces.
+//: In the loop, we go through each value in the shoppingListPrice ***Array***, and for each value we perform the block of code in curly braces.
 //:
 //: At each ***iteration*** of the loop, the ***item*** ***Constant*** will hold the value of the corresponding ***element*** in the shoppingListPrice ***Array***.
 //:
