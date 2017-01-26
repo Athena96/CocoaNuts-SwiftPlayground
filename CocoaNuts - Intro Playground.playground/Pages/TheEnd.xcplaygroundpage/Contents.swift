@@ -14,7 +14,11 @@
 //:
 //: • Practice what you learned here in another playground of your own.
 //:
-//: • Read some more about Swift in the [Apple Docs](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309).
+//: • Read more about Swift in the [Apple Docs](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309).
+//:
+//: • Take a [free course](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961) on iOS Development by Stanford.
+//:
+//: • Visit the [Swift Website](https://swift.org).
 //:
 //: • Follow a [CocoaNuts Demo](http://www.cocoanutsdev.com), and use Swift to make an iOS, watchOS, macOS or tvOS app.
 //:

@@ -150,7 +150,7 @@ john.favoriteColor = "Orange"
 //:***Or***, you can write you own ***initializer***. This is a little beyond the scope of this playground, but you can learn about it [here](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ClassesAndStructures.html#//apple_ref/doc/uid/TP40014097-CH13-ID82).
  
 //: These are the main differences between ***Classes*** and ***Structures***.
- 
+
 //: Default to using a ***Structure*** unless you have a specific reason to use a ***Class***.
 
 //: ----
@@ -162,7 +162,6 @@ john.favoriteColor = "Orange"
  */
 //: ---
 let 🎉 = "party time!"
-
 //: [click to finish](TheEnd)
 //:
 //: [SECRET CHALLENGE](SecretChallenge)

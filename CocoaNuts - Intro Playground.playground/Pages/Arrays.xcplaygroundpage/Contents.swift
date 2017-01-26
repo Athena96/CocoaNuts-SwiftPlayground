@@ -21,7 +21,7 @@ var shoppingList: [String] = ["Eggs", "Avocados", "Bacon"]
 //:
 //: Each value in an ***Array*** has a unique ***index***, you access the value at an ***index*** like this:
 print(shoppingList[1])
-//: If you look at the sidebar, was "Avocados" printed?
+//: If you look at the sidebar, "Avocados" was printed.
 //:
 //: Why was Avocados printed and not Eggs? The reason is because ***Arrays*** are ***indexed*** starting at 0.
 //:
